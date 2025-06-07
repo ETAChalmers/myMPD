@@ -225,7 +225,7 @@ function refreshHomeWidget(pos) {
  */
 //eslint-disable-next-line no-unused-vars
 function openExternalLink(link) {
-    window.open(link);
+    window.open(link, "_self");
 }
 
 /**
